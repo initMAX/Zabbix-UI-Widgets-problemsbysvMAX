@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+  "id": "problemsbysvmax",
+  "type": "widget",
+  "name": "Problems by severity MAX",
+  "namespace": "PBSM",
+  "version": "7.0-1",
+  "author": "initMAX s.r.o.",
+  "description": "Displays the problem count by severity. Extended over the original widget with two additional features: severity cells with zero problems are hidden (no background color), and configurable font size for problem counters.",
+  "url": "https://www.initmax.com",
+  "widget": {
+    "js_class": "PBSM_CWidgetProblemsBySv",
+    "in": {
+      "hostids": {
+        "type": "_hostids"
+      },
+      "groupids": {
+        "type": "_hostgroupids"
+      }
+    },
+    "out": [
+      {
+        "type": "_hostgroupid"
+      },
+      {
+        "type": "_hostgroupids"
+      }
+    ]
+  },
+  "actions": {
+    "widget.problemsbysvmax.view": {
+      "class": "WidgetView"
+    }
+  },
+  "assets": {
+    "js": [
+      "class.widget.js"
+    ]
+  }
+}
