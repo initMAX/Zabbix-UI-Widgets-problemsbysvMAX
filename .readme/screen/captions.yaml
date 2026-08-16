@@ -1,0 +1,6 @@
+01-overview.png:
+  en: "Make severity distribution easier to scan by hiding empty cells and tuning counter size and spacing."
+  cs: "Zpřehledněte rozložení závažností skrytím prázdných buněk a nastavením velikosti i rozestupů počítadel."
+widget.png:
+  en: "A compact Problems by severity widget focuses attention on severity levels that actually contain problems."
+  cs: "Kompaktní widget Problémy podle závažnosti soustředí pozornost jen na úrovně, které skutečně obsahují problémy."
